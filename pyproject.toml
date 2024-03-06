@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "pdf-translation-api"
 dynamic = ["version"]
-description = ''
+description = 'Utility to translate PDF files using Google Cloud Translate API'
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
@@ -25,9 +25,9 @@ classifiers = [
 dependencies = ["google-cloud-translate"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/pdf-translation-api#readme"
-Issues = "https://github.com/unknown/pdf-translation-api/issues"
-Source = "https://github.com/unknown/pdf-translation-api"
+Documentation = "https://github.com/abyesilyurt/pdf-translation-api#readme"
+Issues = "https://github.com/abyesilyurt/pdf-translation-api/issues"
+Source = "https://github.com/abyesilyurt/pdf-translation-api"
 
 [tool.hatch.version]
 path = "src/pdf_translation_api/__about__.py"
